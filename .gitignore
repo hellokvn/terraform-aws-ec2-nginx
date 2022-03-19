@@ -33,3 +33,4 @@ logs
 *.lock.hcl
 *.tfvars
 .ssh
+*.pem
