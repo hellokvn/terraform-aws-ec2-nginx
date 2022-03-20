@@ -1,7 +1,7 @@
 module "network" {
   source          = "./network"
-  vpc_cidr        = local.vpc_cidr
   access_ip       = var.access_ip
+  vpc_cidr        = local.vpc_cidr
   security_groups = local.security_groups
 }
 
